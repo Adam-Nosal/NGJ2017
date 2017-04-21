@@ -62,7 +62,9 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            DecreaseVelocity();
+            mRigidbody2d.velocity = Vector2.zero;
+
+            //DecreaseVelocity();
 
         }
 
