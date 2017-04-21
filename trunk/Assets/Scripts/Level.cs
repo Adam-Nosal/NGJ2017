@@ -5,8 +5,13 @@ public class Level : MonoBehaviour
 {
     private static string[] levels = { "untitled" };
 
-    public void LoadLevel(int i) 
+    public void LoadLevelById(int i) 
     {
-        TilemapLoader.LoadMapFromFile(levels[i], transform);
+        LoadLevelByName(levels[i]);
+    }
+
+    public void LoadLevelByName(string name)
+    {
+        TilemapLoader.LoadMapFromFile(name, transform);
     }
 }

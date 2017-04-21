@@ -3,15 +3,15 @@ using UnityEngine;
 
 [CustomEditor(typeof(Level))]
 public class LevelEditor : Editor {
-    int levelToOpen = 0;
+    string levelToOpen = "untitled";
 
     public override void OnInspectorGUI() {
         DrawDefaultInspector();
 
         Level level = (Level)target;
+        levelToOpen = EditorGUILayout.TextField("Map Name", levelToOpen);
         if(GUILayout.Button("Load From File")) {
-            level.LoadLevel(levelToOpen);
+            level.LoadLevelByName(levelToOpen);
         }
-        //levelToOpen = EditorGUILayout.IntField("Map Name", levelToOpen);
     }
 }

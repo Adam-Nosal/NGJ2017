@@ -15,9 +15,11 @@ public class TilemapLoader
             for (int y = 0; y < map.height; y++)
             {
                 int i = y * map.width + x;
-                GameObject tile = Resources.Load<GameObject>(Path.Combine("Tiles", map.layers[0].data[i].ToString()));
-                result[x, y] = GameObject.Instantiate(
-                    tile, parent);
+                int idx = map.layers[0].data[i];
+                if(idx == 0)
+                    continue;
+                GameObject tile = Tileset.instance.GetTile(map.layers[0].data[i]);
+                result[x, y] = GameObject.Instantiate(tile, parent);
                 result[x, y].transform.localPosition = new Vector2(x, y);
             }
         }
