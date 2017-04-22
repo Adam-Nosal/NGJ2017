@@ -4,7 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(Collider))]
 public class Interactable : MonoBehaviour
 {
-    void Update()
+    protected virtual void Update()
     {
         if(Input.GetMouseButtonDown(0))
         {
@@ -17,8 +17,7 @@ public class Interactable : MonoBehaviour
         }
     }
 
-    virtual void Interact()
+    protected virtual void Interact()
     {
-
     }
 }
