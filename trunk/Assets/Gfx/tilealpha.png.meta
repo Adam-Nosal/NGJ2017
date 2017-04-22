@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: dba619e7a8871f3448f87825da9903b9
-timeCreated: 1492894412
+timeCreated: 1492899975
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -326,6 +326,38 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Tizen
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Samsung TV
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -333,8 +365,8 @@ TextureImporter:
       name: tilealpha_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1320
+        x: 0
+        y: 1279
         width: 64
         height: 64
       alignment: 0
@@ -346,8 +378,8 @@ TextureImporter:
       name: tilealpha_1
       rect:
         serializedVersion: 2
-        x: 67
-        y: 1320
+        x: 64
+        y: 1279
         width: 64
         height: 64
       alignment: 0
@@ -359,8 +391,8 @@ TextureImporter:
       name: tilealpha_2
       rect:
         serializedVersion: 2
-        x: 133
-        y: 1320
+        x: 128
+        y: 1279
         width: 64
         height: 64
       alignment: 0
@@ -372,8 +404,8 @@ TextureImporter:
       name: tilealpha_3
       rect:
         serializedVersion: 2
-        x: 199
-        y: 1320
+        x: 192
+        y: 1279
         width: 64
         height: 64
       alignment: 0
@@ -385,8 +417,8 @@ TextureImporter:
       name: tilealpha_4
       rect:
         serializedVersion: 2
-        x: 265
-        y: 1320
+        x: 256
+        y: 1279
         width: 64
         height: 64
       alignment: 0
@@ -398,8 +430,8 @@ TextureImporter:
       name: tilealpha_5
       rect:
         serializedVersion: 2
-        x: 331
-        y: 1320
+        x: 320
+        y: 1279
         width: 64
         height: 64
       alignment: 0
@@ -411,8 +443,8 @@ TextureImporter:
       name: tilealpha_6
       rect:
         serializedVersion: 2
-        x: 397
-        y: 1320
+        x: 384
+        y: 1279
         width: 64
         height: 64
       alignment: 0
@@ -424,8 +456,8 @@ TextureImporter:
       name: tilealpha_7
       rect:
         serializedVersion: 2
-        x: 463
-        y: 1320
+        x: 448
+        y: 1279
         width: 64
         height: 64
       alignment: 0
@@ -437,8 +469,8 @@ TextureImporter:
       name: tilealpha_8
       rect:
         serializedVersion: 2
-        x: 529
-        y: 1320
+        x: 512
+        y: 1279
         width: 64
         height: 64
       alignment: 0
@@ -450,8 +482,8 @@ TextureImporter:
       name: tilealpha_9
       rect:
         serializedVersion: 2
-        x: 595
-        y: 1320
+        x: 576
+        y: 1279
         width: 64
         height: 64
       alignment: 0
@@ -463,8 +495,8 @@ TextureImporter:
       name: tilealpha_10
       rect:
         serializedVersion: 2
-        x: 661
-        y: 1320
+        x: 640
+        y: 1279
         width: 64
         height: 64
       alignment: 0
@@ -476,8 +508,8 @@ TextureImporter:
       name: tilealpha_11
       rect:
         serializedVersion: 2
-        x: 727
-        y: 1320
+        x: 704
+        y: 1279
         width: 64
         height: 64
       alignment: 0
@@ -489,8 +521,8 @@ TextureImporter:
       name: tilealpha_12
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1254
+        x: 0
+        y: 1215
         width: 64
         height: 64
       alignment: 0
@@ -502,8 +534,8 @@ TextureImporter:
       name: tilealpha_13
       rect:
         serializedVersion: 2
-        x: 67
-        y: 1254
+        x: 64
+        y: 1215
         width: 64
         height: 64
       alignment: 0
@@ -515,8 +547,8 @@ TextureImporter:
       name: tilealpha_14
       rect:
         serializedVersion: 2
-        x: 133
-        y: 1254
+        x: 128
+        y: 1215
         width: 64
         height: 64
       alignment: 0
@@ -528,8 +560,8 @@ TextureImporter:
       name: tilealpha_15
       rect:
         serializedVersion: 2
-        x: 199
-        y: 1254
+        x: 192
+        y: 1215
         width: 64
         height: 64
       alignment: 0
@@ -541,8 +573,8 @@ TextureImporter:
       name: tilealpha_16
       rect:
         serializedVersion: 2
-        x: 265
-        y: 1254
+        x: 256
+        y: 1215
         width: 64
         height: 64
       alignment: 0
@@ -554,8 +586,8 @@ TextureImporter:
       name: tilealpha_17
       rect:
         serializedVersion: 2
-        x: 331
-        y: 1254
+        x: 320
+        y: 1215
         width: 64
         height: 64
       alignment: 0
@@ -567,8 +599,8 @@ TextureImporter:
       name: tilealpha_18
       rect:
         serializedVersion: 2
-        x: 397
-        y: 1254
+        x: 384
+        y: 1215
         width: 64
         height: 64
       alignment: 0
@@ -580,8 +612,8 @@ TextureImporter:
       name: tilealpha_19
       rect:
         serializedVersion: 2
-        x: 463
-        y: 1254
+        x: 448
+        y: 1215
         width: 64
         height: 64
       alignment: 0
@@ -593,8 +625,8 @@ TextureImporter:
       name: tilealpha_20
       rect:
         serializedVersion: 2
-        x: 529
-        y: 1254
+        x: 512
+        y: 1215
         width: 64
         height: 64
       alignment: 0
@@ -606,8 +638,8 @@ TextureImporter:
       name: tilealpha_21
       rect:
         serializedVersion: 2
-        x: 595
-        y: 1254
+        x: 576
+        y: 1215
         width: 64
         height: 64
       alignment: 0
@@ -619,8 +651,8 @@ TextureImporter:
       name: tilealpha_22
       rect:
         serializedVersion: 2
-        x: 661
-        y: 1254
+        x: 640
+        y: 1215
         width: 64
         height: 64
       alignment: 0
@@ -632,8 +664,8 @@ TextureImporter:
       name: tilealpha_23
       rect:
         serializedVersion: 2
-        x: 727
-        y: 1254
+        x: 704
+        y: 1215
         width: 64
         height: 64
       alignment: 0
@@ -645,8 +677,8 @@ TextureImporter:
       name: tilealpha_24
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1188
+        x: 0
+        y: 1151
         width: 64
         height: 64
       alignment: 0
@@ -658,8 +690,8 @@ TextureImporter:
       name: tilealpha_25
       rect:
         serializedVersion: 2
-        x: 67
-        y: 1188
+        x: 64
+        y: 1151
         width: 64
         height: 64
       alignment: 0
@@ -671,8 +703,8 @@ TextureImporter:
       name: tilealpha_26
       rect:
         serializedVersion: 2
-        x: 133
-        y: 1188
+        x: 128
+        y: 1151
         width: 64
         height: 64
       alignment: 0
@@ -684,8 +716,8 @@ TextureImporter:
       name: tilealpha_27
       rect:
         serializedVersion: 2
-        x: 199
-        y: 1188
+        x: 192
+        y: 1151
         width: 64
         height: 64
       alignment: 0
@@ -697,8 +729,8 @@ TextureImporter:
       name: tilealpha_28
       rect:
         serializedVersion: 2
-        x: 265
-        y: 1188
+        x: 256
+        y: 1151
         width: 64
         height: 64
       alignment: 0
@@ -710,8 +742,8 @@ TextureImporter:
       name: tilealpha_29
       rect:
         serializedVersion: 2
-        x: 331
-        y: 1188
+        x: 320
+        y: 1151
         width: 64
         height: 64
       alignment: 0
@@ -723,8 +755,8 @@ TextureImporter:
       name: tilealpha_30
       rect:
         serializedVersion: 2
-        x: 397
-        y: 1188
+        x: 384
+        y: 1151
         width: 64
         height: 64
       alignment: 0
@@ -736,8 +768,8 @@ TextureImporter:
       name: tilealpha_31
       rect:
         serializedVersion: 2
-        x: 463
-        y: 1188
+        x: 448
+        y: 1151
         width: 64
         height: 64
       alignment: 0
@@ -749,8 +781,8 @@ TextureImporter:
       name: tilealpha_32
       rect:
         serializedVersion: 2
-        x: 529
-        y: 1188
+        x: 512
+        y: 1151
         width: 64
         height: 64
       alignment: 0
@@ -762,8 +794,8 @@ TextureImporter:
       name: tilealpha_33
       rect:
         serializedVersion: 2
-        x: 595
-        y: 1188
+        x: 576
+        y: 1151
         width: 64
         height: 64
       alignment: 0
@@ -775,8 +807,8 @@ TextureImporter:
       name: tilealpha_34
       rect:
         serializedVersion: 2
-        x: 661
-        y: 1188
+        x: 640
+        y: 1151
         width: 64
         height: 64
       alignment: 0
@@ -788,8 +820,8 @@ TextureImporter:
       name: tilealpha_35
       rect:
         serializedVersion: 2
-        x: 727
-        y: 1188
+        x: 704
+        y: 1151
         width: 64
         height: 64
       alignment: 0
@@ -801,8 +833,8 @@ TextureImporter:
       name: tilealpha_36
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1122
+        x: 0
+        y: 1087
         width: 64
         height: 64
       alignment: 0
@@ -814,8 +846,8 @@ TextureImporter:
       name: tilealpha_37
       rect:
         serializedVersion: 2
-        x: 67
-        y: 1122
+        x: 64
+        y: 1087
         width: 64
         height: 64
       alignment: 0
@@ -827,8 +859,8 @@ TextureImporter:
       name: tilealpha_38
       rect:
         serializedVersion: 2
-        x: 133
-        y: 1122
+        x: 128
+        y: 1087
         width: 64
         height: 64
       alignment: 0
@@ -840,8 +872,8 @@ TextureImporter:
       name: tilealpha_39
       rect:
         serializedVersion: 2
-        x: 199
-        y: 1122
+        x: 192
+        y: 1087
         width: 64
         height: 64
       alignment: 0
@@ -853,8 +885,8 @@ TextureImporter:
       name: tilealpha_40
       rect:
         serializedVersion: 2
-        x: 265
-        y: 1122
+        x: 256
+        y: 1087
         width: 64
         height: 64
       alignment: 0
@@ -866,8 +898,8 @@ TextureImporter:
       name: tilealpha_41
       rect:
         serializedVersion: 2
-        x: 331
-        y: 1122
+        x: 320
+        y: 1087
         width: 64
         height: 64
       alignment: 0
@@ -879,8 +911,8 @@ TextureImporter:
       name: tilealpha_42
       rect:
         serializedVersion: 2
-        x: 397
-        y: 1122
+        x: 384
+        y: 1087
         width: 64
         height: 64
       alignment: 0
@@ -892,8 +924,8 @@ TextureImporter:
       name: tilealpha_43
       rect:
         serializedVersion: 2
-        x: 463
-        y: 1122
+        x: 448
+        y: 1087
         width: 64
         height: 64
       alignment: 0
@@ -905,8 +937,8 @@ TextureImporter:
       name: tilealpha_44
       rect:
         serializedVersion: 2
-        x: 529
-        y: 1122
+        x: 512
+        y: 1087
         width: 64
         height: 64
       alignment: 0
@@ -918,8 +950,8 @@ TextureImporter:
       name: tilealpha_45
       rect:
         serializedVersion: 2
-        x: 595
-        y: 1122
+        x: 576
+        y: 1087
         width: 64
         height: 64
       alignment: 0
@@ -931,8 +963,8 @@ TextureImporter:
       name: tilealpha_46
       rect:
         serializedVersion: 2
-        x: 661
-        y: 1122
+        x: 640
+        y: 1087
         width: 64
         height: 64
       alignment: 0
@@ -944,8 +976,8 @@ TextureImporter:
       name: tilealpha_47
       rect:
         serializedVersion: 2
-        x: 727
-        y: 1122
+        x: 704
+        y: 1087
         width: 64
         height: 64
       alignment: 0
@@ -957,8 +989,8 @@ TextureImporter:
       name: tilealpha_48
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1056
+        x: 0
+        y: 1023
         width: 64
         height: 64
       alignment: 0
@@ -970,8 +1002,8 @@ TextureImporter:
       name: tilealpha_49
       rect:
         serializedVersion: 2
-        x: 67
-        y: 1056
+        x: 64
+        y: 1023
         width: 64
         height: 64
       alignment: 0
@@ -983,8 +1015,8 @@ TextureImporter:
       name: tilealpha_50
       rect:
         serializedVersion: 2
-        x: 133
-        y: 1056
+        x: 128
+        y: 1023
         width: 64
         height: 64
       alignment: 0
@@ -996,8 +1028,8 @@ TextureImporter:
       name: tilealpha_51
       rect:
         serializedVersion: 2
-        x: 199
-        y: 1056
+        x: 192
+        y: 1023
         width: 64
         height: 64
       alignment: 0
@@ -1009,8 +1041,8 @@ TextureImporter:
       name: tilealpha_52
       rect:
         serializedVersion: 2
-        x: 265
-        y: 1056
+        x: 256
+        y: 1023
         width: 64
         height: 64
       alignment: 0
@@ -1022,8 +1054,8 @@ TextureImporter:
       name: tilealpha_53
       rect:
         serializedVersion: 2
-        x: 331
-        y: 1056
+        x: 320
+        y: 1023
         width: 64
         height: 64
       alignment: 0
@@ -1035,8 +1067,8 @@ TextureImporter:
       name: tilealpha_54
       rect:
         serializedVersion: 2
-        x: 397
-        y: 1056
+        x: 384
+        y: 1023
         width: 64
         height: 64
       alignment: 0
@@ -1048,8 +1080,8 @@ TextureImporter:
       name: tilealpha_55
       rect:
         serializedVersion: 2
-        x: 463
-        y: 1056
+        x: 448
+        y: 1023
         width: 64
         height: 64
       alignment: 0
@@ -1061,8 +1093,8 @@ TextureImporter:
       name: tilealpha_56
       rect:
         serializedVersion: 2
-        x: 529
-        y: 1056
+        x: 512
+        y: 1023
         width: 64
         height: 64
       alignment: 0
@@ -1074,8 +1106,8 @@ TextureImporter:
       name: tilealpha_57
       rect:
         serializedVersion: 2
-        x: 595
-        y: 1056
+        x: 576
+        y: 1023
         width: 64
         height: 64
       alignment: 0
@@ -1087,8 +1119,8 @@ TextureImporter:
       name: tilealpha_58
       rect:
         serializedVersion: 2
-        x: 661
-        y: 1056
+        x: 640
+        y: 1023
         width: 64
         height: 64
       alignment: 0
@@ -1100,8 +1132,8 @@ TextureImporter:
       name: tilealpha_59
       rect:
         serializedVersion: 2
-        x: 727
-        y: 1056
+        x: 704
+        y: 1023
         width: 64
         height: 64
       alignment: 0
@@ -1113,8 +1145,8 @@ TextureImporter:
       name: tilealpha_60
       rect:
         serializedVersion: 2
-        x: 1
-        y: 990
+        x: 0
+        y: 959
         width: 64
         height: 64
       alignment: 0
@@ -1126,8 +1158,8 @@ TextureImporter:
       name: tilealpha_61
       rect:
         serializedVersion: 2
-        x: 67
-        y: 990
+        x: 64
+        y: 959
         width: 64
         height: 64
       alignment: 0
@@ -1139,8 +1171,8 @@ TextureImporter:
       name: tilealpha_62
       rect:
         serializedVersion: 2
-        x: 133
-        y: 990
+        x: 128
+        y: 959
         width: 64
         height: 64
       alignment: 0
@@ -1152,8 +1184,8 @@ TextureImporter:
       name: tilealpha_63
       rect:
         serializedVersion: 2
-        x: 199
-        y: 990
+        x: 192
+        y: 959
         width: 64
         height: 64
       alignment: 0
@@ -1165,8 +1197,8 @@ TextureImporter:
       name: tilealpha_64
       rect:
         serializedVersion: 2
-        x: 265
-        y: 990
+        x: 256
+        y: 959
         width: 64
         height: 64
       alignment: 0
@@ -1178,8 +1210,8 @@ TextureImporter:
       name: tilealpha_65
       rect:
         serializedVersion: 2
-        x: 331
-        y: 990
+        x: 320
+        y: 959
         width: 64
         height: 64
       alignment: 0
@@ -1191,8 +1223,8 @@ TextureImporter:
       name: tilealpha_66
       rect:
         serializedVersion: 2
-        x: 397
-        y: 990
+        x: 384
+        y: 959
         width: 64
         height: 64
       alignment: 0
@@ -1204,8 +1236,8 @@ TextureImporter:
       name: tilealpha_67
       rect:
         serializedVersion: 2
-        x: 463
-        y: 990
+        x: 448
+        y: 959
         width: 64
         height: 64
       alignment: 0
@@ -1217,8 +1249,8 @@ TextureImporter:
       name: tilealpha_68
       rect:
         serializedVersion: 2
-        x: 529
-        y: 990
+        x: 512
+        y: 959
         width: 64
         height: 64
       alignment: 0
@@ -1230,8 +1262,8 @@ TextureImporter:
       name: tilealpha_69
       rect:
         serializedVersion: 2
-        x: 595
-        y: 990
+        x: 576
+        y: 959
         width: 64
         height: 64
       alignment: 0
@@ -1243,8 +1275,8 @@ TextureImporter:
       name: tilealpha_70
       rect:
         serializedVersion: 2
-        x: 661
-        y: 990
+        x: 640
+        y: 959
         width: 64
         height: 64
       alignment: 0
@@ -1256,8 +1288,8 @@ TextureImporter:
       name: tilealpha_71
       rect:
         serializedVersion: 2
-        x: 727
-        y: 990
+        x: 704
+        y: 959
         width: 64
         height: 64
       alignment: 0
@@ -1269,8 +1301,8 @@ TextureImporter:
       name: tilealpha_72
       rect:
         serializedVersion: 2
-        x: 1
-        y: 924
+        x: 0
+        y: 895
         width: 64
         height: 64
       alignment: 0
@@ -1282,8 +1314,8 @@ TextureImporter:
       name: tilealpha_73
       rect:
         serializedVersion: 2
-        x: 67
-        y: 924
+        x: 64
+        y: 895
         width: 64
         height: 64
       alignment: 0
@@ -1295,8 +1327,8 @@ TextureImporter:
       name: tilealpha_74
       rect:
         serializedVersion: 2
-        x: 133
-        y: 924
+        x: 128
+        y: 895
         width: 64
         height: 64
       alignment: 0
@@ -1308,8 +1340,8 @@ TextureImporter:
       name: tilealpha_75
       rect:
         serializedVersion: 2
-        x: 199
-        y: 924
+        x: 192
+        y: 895
         width: 64
         height: 64
       alignment: 0
@@ -1321,8 +1353,8 @@ TextureImporter:
       name: tilealpha_76
       rect:
         serializedVersion: 2
-        x: 265
-        y: 924
+        x: 256
+        y: 895
         width: 64
         height: 64
       alignment: 0
@@ -1334,8 +1366,8 @@ TextureImporter:
       name: tilealpha_77
       rect:
         serializedVersion: 2
-        x: 331
-        y: 924
+        x: 320
+        y: 895
         width: 64
         height: 64
       alignment: 0
@@ -1347,8 +1379,8 @@ TextureImporter:
       name: tilealpha_78
       rect:
         serializedVersion: 2
-        x: 397
-        y: 924
+        x: 384
+        y: 895
         width: 64
         height: 64
       alignment: 0
@@ -1360,8 +1392,8 @@ TextureImporter:
       name: tilealpha_79
       rect:
         serializedVersion: 2
-        x: 463
-        y: 924
+        x: 448
+        y: 895
         width: 64
         height: 64
       alignment: 0
@@ -1373,8 +1405,8 @@ TextureImporter:
       name: tilealpha_80
       rect:
         serializedVersion: 2
-        x: 529
-        y: 924
+        x: 512
+        y: 895
         width: 64
         height: 64
       alignment: 0
@@ -1386,8 +1418,8 @@ TextureImporter:
       name: tilealpha_81
       rect:
         serializedVersion: 2
-        x: 595
-        y: 924
+        x: 576
+        y: 895
         width: 64
         height: 64
       alignment: 0
@@ -1399,8 +1431,8 @@ TextureImporter:
       name: tilealpha_82
       rect:
         serializedVersion: 2
-        x: 661
-        y: 924
+        x: 640
+        y: 895
         width: 64
         height: 64
       alignment: 0
@@ -1412,8 +1444,8 @@ TextureImporter:
       name: tilealpha_83
       rect:
         serializedVersion: 2
-        x: 727
-        y: 924
+        x: 704
+        y: 895
         width: 64
         height: 64
       alignment: 0
@@ -1425,8 +1457,8 @@ TextureImporter:
       name: tilealpha_84
       rect:
         serializedVersion: 2
-        x: 1
-        y: 858
+        x: 0
+        y: 831
         width: 64
         height: 64
       alignment: 0
@@ -1438,8 +1470,8 @@ TextureImporter:
       name: tilealpha_85
       rect:
         serializedVersion: 2
-        x: 67
-        y: 858
+        x: 64
+        y: 831
         width: 64
         height: 64
       alignment: 0
@@ -1451,8 +1483,8 @@ TextureImporter:
       name: tilealpha_86
       rect:
         serializedVersion: 2
-        x: 133
-        y: 858
+        x: 128
+        y: 831
         width: 64
         height: 64
       alignment: 0
@@ -1464,8 +1496,8 @@ TextureImporter:
       name: tilealpha_87
       rect:
         serializedVersion: 2
-        x: 199
-        y: 858
+        x: 192
+        y: 831
         width: 64
         height: 64
       alignment: 0
@@ -1477,8 +1509,8 @@ TextureImporter:
       name: tilealpha_88
       rect:
         serializedVersion: 2
-        x: 265
-        y: 858
+        x: 256
+        y: 831
         width: 64
         height: 64
       alignment: 0
@@ -1490,8 +1522,8 @@ TextureImporter:
       name: tilealpha_89
       rect:
         serializedVersion: 2
-        x: 331
-        y: 858
+        x: 320
+        y: 831
         width: 64
         height: 64
       alignment: 0
@@ -1503,8 +1535,8 @@ TextureImporter:
       name: tilealpha_90
       rect:
         serializedVersion: 2
-        x: 397
-        y: 858
+        x: 384
+        y: 831
         width: 64
         height: 64
       alignment: 0
@@ -1516,8 +1548,8 @@ TextureImporter:
       name: tilealpha_91
       rect:
         serializedVersion: 2
-        x: 463
-        y: 858
+        x: 448
+        y: 831
         width: 64
         height: 64
       alignment: 0
@@ -1529,8 +1561,8 @@ TextureImporter:
       name: tilealpha_92
       rect:
         serializedVersion: 2
-        x: 529
-        y: 858
+        x: 512
+        y: 831
         width: 64
         height: 64
       alignment: 0
@@ -1542,8 +1574,8 @@ TextureImporter:
       name: tilealpha_93
       rect:
         serializedVersion: 2
-        x: 595
-        y: 858
+        x: 576
+        y: 831
         width: 64
         height: 64
       alignment: 0
@@ -1555,8 +1587,8 @@ TextureImporter:
       name: tilealpha_94
       rect:
         serializedVersion: 2
-        x: 661
-        y: 858
+        x: 640
+        y: 831
         width: 64
         height: 64
       alignment: 0
@@ -1568,8 +1600,8 @@ TextureImporter:
       name: tilealpha_95
       rect:
         serializedVersion: 2
-        x: 727
-        y: 858
+        x: 704
+        y: 831
         width: 64
         height: 64
       alignment: 0
@@ -1581,8 +1613,8 @@ TextureImporter:
       name: tilealpha_96
       rect:
         serializedVersion: 2
-        x: 1
-        y: 792
+        x: 0
+        y: 767
         width: 64
         height: 64
       alignment: 0
@@ -1594,8 +1626,8 @@ TextureImporter:
       name: tilealpha_97
       rect:
         serializedVersion: 2
-        x: 67
-        y: 792
+        x: 64
+        y: 767
         width: 64
         height: 64
       alignment: 0
@@ -1607,8 +1639,8 @@ TextureImporter:
       name: tilealpha_98
       rect:
         serializedVersion: 2
-        x: 133
-        y: 792
+        x: 128
+        y: 767
         width: 64
         height: 64
       alignment: 0
@@ -1620,8 +1652,8 @@ TextureImporter:
       name: tilealpha_99
       rect:
         serializedVersion: 2
-        x: 199
-        y: 792
+        x: 192
+        y: 767
         width: 64
         height: 64
       alignment: 0
@@ -1633,8 +1665,8 @@ TextureImporter:
       name: tilealpha_100
       rect:
         serializedVersion: 2
-        x: 265
-        y: 792
+        x: 256
+        y: 767
         width: 64
         height: 64
       alignment: 0
@@ -1646,8 +1678,8 @@ TextureImporter:
       name: tilealpha_101
       rect:
         serializedVersion: 2
-        x: 331
-        y: 792
+        x: 320
+        y: 767
         width: 64
         height: 64
       alignment: 0
@@ -1659,8 +1691,8 @@ TextureImporter:
       name: tilealpha_102
       rect:
         serializedVersion: 2
-        x: 397
-        y: 792
+        x: 384
+        y: 767
         width: 64
         height: 64
       alignment: 0
@@ -1672,8 +1704,8 @@ TextureImporter:
       name: tilealpha_103
       rect:
         serializedVersion: 2
-        x: 463
-        y: 792
+        x: 448
+        y: 767
         width: 64
         height: 64
       alignment: 0
@@ -1685,8 +1717,8 @@ TextureImporter:
       name: tilealpha_104
       rect:
         serializedVersion: 2
-        x: 529
-        y: 792
+        x: 512
+        y: 767
         width: 64
         height: 64
       alignment: 0
@@ -1698,8 +1730,8 @@ TextureImporter:
       name: tilealpha_105
       rect:
         serializedVersion: 2
-        x: 595
-        y: 792
+        x: 576
+        y: 767
         width: 64
         height: 64
       alignment: 0
@@ -1711,8 +1743,8 @@ TextureImporter:
       name: tilealpha_106
       rect:
         serializedVersion: 2
-        x: 661
-        y: 792
+        x: 640
+        y: 767
         width: 64
         height: 64
       alignment: 0
@@ -1724,8 +1756,8 @@ TextureImporter:
       name: tilealpha_107
       rect:
         serializedVersion: 2
-        x: 727
-        y: 792
+        x: 704
+        y: 767
         width: 64
         height: 64
       alignment: 0
@@ -1737,8 +1769,8 @@ TextureImporter:
       name: tilealpha_108
       rect:
         serializedVersion: 2
-        x: 1
-        y: 726
+        x: 0
+        y: 703
         width: 64
         height: 64
       alignment: 0
@@ -1750,8 +1782,8 @@ TextureImporter:
       name: tilealpha_109
       rect:
         serializedVersion: 2
-        x: 67
-        y: 726
+        x: 64
+        y: 703
         width: 64
         height: 64
       alignment: 0
@@ -1763,8 +1795,8 @@ TextureImporter:
       name: tilealpha_110
       rect:
         serializedVersion: 2
-        x: 133
-        y: 726
+        x: 128
+        y: 703
         width: 64
         height: 64
       alignment: 0
@@ -1776,8 +1808,8 @@ TextureImporter:
       name: tilealpha_111
       rect:
         serializedVersion: 2
-        x: 199
-        y: 726
+        x: 192
+        y: 703
         width: 64
         height: 64
       alignment: 0
@@ -1789,8 +1821,8 @@ TextureImporter:
       name: tilealpha_112
       rect:
         serializedVersion: 2
-        x: 265
-        y: 726
+        x: 256
+        y: 703
         width: 64
         height: 64
       alignment: 0
@@ -1802,8 +1834,8 @@ TextureImporter:
       name: tilealpha_113
       rect:
         serializedVersion: 2
-        x: 331
-        y: 726
+        x: 320
+        y: 703
         width: 64
         height: 64
       alignment: 0
@@ -1815,8 +1847,8 @@ TextureImporter:
       name: tilealpha_114
       rect:
         serializedVersion: 2
-        x: 397
-        y: 726
+        x: 384
+        y: 703
         width: 64
         height: 64
       alignment: 0
@@ -1828,8 +1860,8 @@ TextureImporter:
       name: tilealpha_115
       rect:
         serializedVersion: 2
-        x: 463
-        y: 726
+        x: 448
+        y: 703
         width: 64
         height: 64
       alignment: 0
@@ -1841,8 +1873,8 @@ TextureImporter:
       name: tilealpha_116
       rect:
         serializedVersion: 2
-        x: 529
-        y: 726
+        x: 512
+        y: 703
         width: 64
         height: 64
       alignment: 0
@@ -1854,8 +1886,8 @@ TextureImporter:
       name: tilealpha_117
       rect:
         serializedVersion: 2
-        x: 595
-        y: 726
+        x: 576
+        y: 703
         width: 64
         height: 64
       alignment: 0
@@ -1867,8 +1899,8 @@ TextureImporter:
       name: tilealpha_118
       rect:
         serializedVersion: 2
-        x: 661
-        y: 726
+        x: 640
+        y: 703
         width: 64
         height: 64
       alignment: 0
@@ -1880,8 +1912,8 @@ TextureImporter:
       name: tilealpha_119
       rect:
         serializedVersion: 2
-        x: 727
-        y: 726
+        x: 704
+        y: 703
         width: 64
         height: 64
       alignment: 0
@@ -1893,8 +1925,8 @@ TextureImporter:
       name: tilealpha_120
       rect:
         serializedVersion: 2
-        x: 1
-        y: 660
+        x: 0
+        y: 639
         width: 64
         height: 64
       alignment: 0
@@ -1906,8 +1938,8 @@ TextureImporter:
       name: tilealpha_121
       rect:
         serializedVersion: 2
-        x: 67
-        y: 660
+        x: 64
+        y: 639
         width: 64
         height: 64
       alignment: 0
@@ -1919,8 +1951,8 @@ TextureImporter:
       name: tilealpha_122
       rect:
         serializedVersion: 2
-        x: 133
-        y: 660
+        x: 128
+        y: 639
         width: 64
         height: 64
       alignment: 0
@@ -1932,8 +1964,8 @@ TextureImporter:
       name: tilealpha_123
       rect:
         serializedVersion: 2
-        x: 199
-        y: 660
+        x: 192
+        y: 639
         width: 64
         height: 64
       alignment: 0
@@ -1945,8 +1977,8 @@ TextureImporter:
       name: tilealpha_124
       rect:
         serializedVersion: 2
-        x: 265
-        y: 660
+        x: 256
+        y: 639
         width: 64
         height: 64
       alignment: 0
@@ -1958,8 +1990,8 @@ TextureImporter:
       name: tilealpha_125
       rect:
         serializedVersion: 2
-        x: 331
-        y: 660
+        x: 320
+        y: 639
         width: 64
         height: 64
       alignment: 0
@@ -1971,8 +2003,8 @@ TextureImporter:
       name: tilealpha_126
       rect:
         serializedVersion: 2
-        x: 397
-        y: 660
+        x: 384
+        y: 639
         width: 64
         height: 64
       alignment: 0
@@ -1984,8 +2016,8 @@ TextureImporter:
       name: tilealpha_127
       rect:
         serializedVersion: 2
-        x: 463
-        y: 660
+        x: 448
+        y: 639
         width: 64
         height: 64
       alignment: 0
@@ -1997,8 +2029,8 @@ TextureImporter:
       name: tilealpha_128
       rect:
         serializedVersion: 2
-        x: 529
-        y: 660
+        x: 512
+        y: 639
         width: 64
         height: 64
       alignment: 0
@@ -2010,8 +2042,8 @@ TextureImporter:
       name: tilealpha_129
       rect:
         serializedVersion: 2
-        x: 595
-        y: 660
+        x: 576
+        y: 639
         width: 64
         height: 64
       alignment: 0
@@ -2023,8 +2055,8 @@ TextureImporter:
       name: tilealpha_130
       rect:
         serializedVersion: 2
-        x: 661
-        y: 660
+        x: 640
+        y: 639
         width: 64
         height: 64
       alignment: 0
@@ -2036,8 +2068,8 @@ TextureImporter:
       name: tilealpha_131
       rect:
         serializedVersion: 2
-        x: 727
-        y: 660
+        x: 704
+        y: 639
         width: 64
         height: 64
       alignment: 0
@@ -2049,8 +2081,8 @@ TextureImporter:
       name: tilealpha_132
       rect:
         serializedVersion: 2
-        x: 1
-        y: 594
+        x: 0
+        y: 575
         width: 64
         height: 64
       alignment: 0
@@ -2062,8 +2094,8 @@ TextureImporter:
       name: tilealpha_133
       rect:
         serializedVersion: 2
-        x: 67
-        y: 594
+        x: 64
+        y: 575
         width: 64
         height: 64
       alignment: 0
@@ -2075,8 +2107,8 @@ TextureImporter:
       name: tilealpha_134
       rect:
         serializedVersion: 2
-        x: 133
-        y: 594
+        x: 128
+        y: 575
         width: 64
         height: 64
       alignment: 0
@@ -2088,8 +2120,8 @@ TextureImporter:
       name: tilealpha_135
       rect:
         serializedVersion: 2
-        x: 199
-        y: 594
+        x: 192
+        y: 575
         width: 64
         height: 64
       alignment: 0
@@ -2101,8 +2133,8 @@ TextureImporter:
       name: tilealpha_136
       rect:
         serializedVersion: 2
-        x: 265
-        y: 594
+        x: 256
+        y: 575
         width: 64
         height: 64
       alignment: 0
@@ -2114,8 +2146,8 @@ TextureImporter:
       name: tilealpha_137
       rect:
         serializedVersion: 2
-        x: 331
-        y: 594
+        x: 320
+        y: 575
         width: 64
         height: 64
       alignment: 0
@@ -2127,8 +2159,8 @@ TextureImporter:
       name: tilealpha_138
       rect:
         serializedVersion: 2
-        x: 397
-        y: 594
+        x: 384
+        y: 575
         width: 64
         height: 64
       alignment: 0
@@ -2140,8 +2172,8 @@ TextureImporter:
       name: tilealpha_139
       rect:
         serializedVersion: 2
-        x: 463
-        y: 594
+        x: 448
+        y: 575
         width: 64
         height: 64
       alignment: 0
@@ -2153,8 +2185,8 @@ TextureImporter:
       name: tilealpha_140
       rect:
         serializedVersion: 2
-        x: 529
-        y: 594
+        x: 512
+        y: 575
         width: 64
         height: 64
       alignment: 0
@@ -2166,8 +2198,8 @@ TextureImporter:
       name: tilealpha_141
       rect:
         serializedVersion: 2
-        x: 595
-        y: 594
+        x: 576
+        y: 575
         width: 64
         height: 64
       alignment: 0
@@ -2179,8 +2211,8 @@ TextureImporter:
       name: tilealpha_142
       rect:
         serializedVersion: 2
-        x: 661
-        y: 594
+        x: 640
+        y: 575
         width: 64
         height: 64
       alignment: 0
@@ -2192,8 +2224,8 @@ TextureImporter:
       name: tilealpha_143
       rect:
         serializedVersion: 2
-        x: 727
-        y: 594
+        x: 704
+        y: 575
         width: 64
         height: 64
       alignment: 0
@@ -2205,8 +2237,8 @@ TextureImporter:
       name: tilealpha_144
       rect:
         serializedVersion: 2
-        x: 1
-        y: 528
+        x: 0
+        y: 511
         width: 64
         height: 64
       alignment: 0
@@ -2218,8 +2250,8 @@ TextureImporter:
       name: tilealpha_145
       rect:
         serializedVersion: 2
-        x: 67
-        y: 528
+        x: 64
+        y: 511
         width: 64
         height: 64
       alignment: 0
@@ -2231,8 +2263,8 @@ TextureImporter:
       name: tilealpha_146
       rect:
         serializedVersion: 2
-        x: 133
-        y: 528
+        x: 128
+        y: 511
         width: 64
         height: 64
       alignment: 0
@@ -2244,8 +2276,8 @@ TextureImporter:
       name: tilealpha_147
       rect:
         serializedVersion: 2
-        x: 199
-        y: 528
+        x: 192
+        y: 511
         width: 64
         height: 64
       alignment: 0
@@ -2257,8 +2289,8 @@ TextureImporter:
       name: tilealpha_148
       rect:
         serializedVersion: 2
-        x: 265
-        y: 528
+        x: 256
+        y: 511
         width: 64
         height: 64
       alignment: 0
@@ -2270,8 +2302,8 @@ TextureImporter:
       name: tilealpha_149
       rect:
         serializedVersion: 2
-        x: 331
-        y: 528
+        x: 320
+        y: 511
         width: 64
         height: 64
       alignment: 0
@@ -2283,8 +2315,8 @@ TextureImporter:
       name: tilealpha_150
       rect:
         serializedVersion: 2
-        x: 397
-        y: 528
+        x: 384
+        y: 511
         width: 64
         height: 64
       alignment: 0
@@ -2296,8 +2328,8 @@ TextureImporter:
       name: tilealpha_151
       rect:
         serializedVersion: 2
-        x: 463
-        y: 528
+        x: 448
+        y: 511
         width: 64
         height: 64
       alignment: 0
@@ -2309,8 +2341,8 @@ TextureImporter:
       name: tilealpha_152
       rect:
         serializedVersion: 2
-        x: 529
-        y: 528
+        x: 512
+        y: 511
         width: 64
         height: 64
       alignment: 0
@@ -2322,8 +2354,8 @@ TextureImporter:
       name: tilealpha_153
       rect:
         serializedVersion: 2
-        x: 595
-        y: 528
+        x: 576
+        y: 511
         width: 64
         height: 64
       alignment: 0
@@ -2335,8 +2367,8 @@ TextureImporter:
       name: tilealpha_154
       rect:
         serializedVersion: 2
-        x: 661
-        y: 528
+        x: 640
+        y: 511
         width: 64
         height: 64
       alignment: 0
@@ -2348,8 +2380,8 @@ TextureImporter:
       name: tilealpha_155
       rect:
         serializedVersion: 2
-        x: 727
-        y: 528
+        x: 704
+        y: 511
         width: 64
         height: 64
       alignment: 0
@@ -2361,8 +2393,8 @@ TextureImporter:
       name: tilealpha_156
       rect:
         serializedVersion: 2
-        x: 1
-        y: 462
+        x: 0
+        y: 447
         width: 64
         height: 64
       alignment: 0
@@ -2374,8 +2406,8 @@ TextureImporter:
       name: tilealpha_157
       rect:
         serializedVersion: 2
-        x: 67
-        y: 462
+        x: 64
+        y: 447
         width: 64
         height: 64
       alignment: 0
@@ -2387,8 +2419,8 @@ TextureImporter:
       name: tilealpha_158
       rect:
         serializedVersion: 2
-        x: 133
-        y: 462
+        x: 128
+        y: 447
         width: 64
         height: 64
       alignment: 0
@@ -2400,8 +2432,8 @@ TextureImporter:
       name: tilealpha_159
       rect:
         serializedVersion: 2
-        x: 199
-        y: 462
+        x: 192
+        y: 447
         width: 64
         height: 64
       alignment: 0
@@ -2413,8 +2445,8 @@ TextureImporter:
       name: tilealpha_160
       rect:
         serializedVersion: 2
-        x: 265
-        y: 462
+        x: 256
+        y: 447
         width: 64
         height: 64
       alignment: 0
@@ -2426,8 +2458,8 @@ TextureImporter:
       name: tilealpha_161
       rect:
         serializedVersion: 2
-        x: 331
-        y: 462
+        x: 320
+        y: 447
         width: 64
         height: 64
       alignment: 0
@@ -2439,8 +2471,8 @@ TextureImporter:
       name: tilealpha_162
       rect:
         serializedVersion: 2
-        x: 397
-        y: 462
+        x: 384
+        y: 447
         width: 64
         height: 64
       alignment: 0
@@ -2452,8 +2484,8 @@ TextureImporter:
       name: tilealpha_163
       rect:
         serializedVersion: 2
-        x: 463
-        y: 462
+        x: 448
+        y: 447
         width: 64
         height: 64
       alignment: 0
@@ -2465,8 +2497,8 @@ TextureImporter:
       name: tilealpha_164
       rect:
         serializedVersion: 2
-        x: 529
-        y: 462
+        x: 512
+        y: 447
         width: 64
         height: 64
       alignment: 0
@@ -2478,8 +2510,8 @@ TextureImporter:
       name: tilealpha_165
       rect:
         serializedVersion: 2
-        x: 595
-        y: 462
+        x: 576
+        y: 447
         width: 64
         height: 64
       alignment: 0
@@ -2491,8 +2523,8 @@ TextureImporter:
       name: tilealpha_166
       rect:
         serializedVersion: 2
-        x: 661
-        y: 462
+        x: 640
+        y: 447
         width: 64
         height: 64
       alignment: 0
@@ -2504,8 +2536,8 @@ TextureImporter:
       name: tilealpha_167
       rect:
         serializedVersion: 2
-        x: 727
-        y: 462
+        x: 704
+        y: 447
         width: 64
         height: 64
       alignment: 0
@@ -2517,8 +2549,8 @@ TextureImporter:
       name: tilealpha_168
       rect:
         serializedVersion: 2
-        x: 1
-        y: 396
+        x: 0
+        y: 383
         width: 64
         height: 64
       alignment: 0
@@ -2530,8 +2562,8 @@ TextureImporter:
       name: tilealpha_169
       rect:
         serializedVersion: 2
-        x: 67
-        y: 396
+        x: 64
+        y: 383
         width: 64
         height: 64
       alignment: 0
@@ -2543,8 +2575,8 @@ TextureImporter:
       name: tilealpha_170
       rect:
         serializedVersion: 2
-        x: 133
-        y: 396
+        x: 128
+        y: 383
         width: 64
         height: 64
       alignment: 0
@@ -2556,8 +2588,8 @@ TextureImporter:
       name: tilealpha_171
       rect:
         serializedVersion: 2
-        x: 199
-        y: 396
+        x: 192
+        y: 383
         width: 64
         height: 64
       alignment: 0
@@ -2569,8 +2601,8 @@ TextureImporter:
       name: tilealpha_172
       rect:
         serializedVersion: 2
-        x: 265
-        y: 396
+        x: 256
+        y: 383
         width: 64
         height: 64
       alignment: 0
@@ -2582,8 +2614,8 @@ TextureImporter:
       name: tilealpha_173
       rect:
         serializedVersion: 2
-        x: 331
-        y: 396
+        x: 320
+        y: 383
         width: 64
         height: 64
       alignment: 0
@@ -2595,8 +2627,8 @@ TextureImporter:
       name: tilealpha_174
       rect:
         serializedVersion: 2
-        x: 397
-        y: 396
+        x: 384
+        y: 383
         width: 64
         height: 64
       alignment: 0
@@ -2608,8 +2640,8 @@ TextureImporter:
       name: tilealpha_175
       rect:
         serializedVersion: 2
-        x: 463
-        y: 396
+        x: 448
+        y: 383
         width: 64
         height: 64
       alignment: 0
@@ -2621,8 +2653,8 @@ TextureImporter:
       name: tilealpha_176
       rect:
         serializedVersion: 2
-        x: 529
-        y: 396
+        x: 512
+        y: 383
         width: 64
         height: 64
       alignment: 0
@@ -2634,8 +2666,8 @@ TextureImporter:
       name: tilealpha_177
       rect:
         serializedVersion: 2
-        x: 595
-        y: 396
+        x: 576
+        y: 383
         width: 64
         height: 64
       alignment: 0
@@ -2647,8 +2679,8 @@ TextureImporter:
       name: tilealpha_178
       rect:
         serializedVersion: 2
-        x: 661
-        y: 396
+        x: 640
+        y: 383
         width: 64
         height: 64
       alignment: 0
@@ -2660,8 +2692,8 @@ TextureImporter:
       name: tilealpha_179
       rect:
         serializedVersion: 2
-        x: 727
-        y: 396
+        x: 704
+        y: 383
         width: 64
         height: 64
       alignment: 0
@@ -2673,8 +2705,8 @@ TextureImporter:
       name: tilealpha_180
       rect:
         serializedVersion: 2
-        x: 1
-        y: 330
+        x: 0
+        y: 319
         width: 64
         height: 64
       alignment: 0
@@ -2686,8 +2718,8 @@ TextureImporter:
       name: tilealpha_181
       rect:
         serializedVersion: 2
-        x: 67
-        y: 330
+        x: 64
+        y: 319
         width: 64
         height: 64
       alignment: 0
@@ -2699,8 +2731,8 @@ TextureImporter:
       name: tilealpha_182
       rect:
         serializedVersion: 2
-        x: 133
-        y: 330
+        x: 128
+        y: 319
         width: 64
         height: 64
       alignment: 0
@@ -2712,8 +2744,8 @@ TextureImporter:
       name: tilealpha_183
       rect:
         serializedVersion: 2
-        x: 199
-        y: 330
+        x: 192
+        y: 319
         width: 64
         height: 64
       alignment: 0
@@ -2725,8 +2757,8 @@ TextureImporter:
       name: tilealpha_184
       rect:
         serializedVersion: 2
-        x: 265
-        y: 330
+        x: 256
+        y: 319
         width: 64
         height: 64
       alignment: 0
@@ -2738,8 +2770,8 @@ TextureImporter:
       name: tilealpha_185
       rect:
         serializedVersion: 2
-        x: 331
-        y: 330
+        x: 320
+        y: 319
         width: 64
         height: 64
       alignment: 0
@@ -2751,8 +2783,8 @@ TextureImporter:
       name: tilealpha_186
       rect:
         serializedVersion: 2
-        x: 397
-        y: 330
+        x: 384
+        y: 319
         width: 64
         height: 64
       alignment: 0
@@ -2764,8 +2796,8 @@ TextureImporter:
       name: tilealpha_187
       rect:
         serializedVersion: 2
-        x: 463
-        y: 330
+        x: 448
+        y: 319
         width: 64
         height: 64
       alignment: 0
@@ -2777,8 +2809,8 @@ TextureImporter:
       name: tilealpha_188
       rect:
         serializedVersion: 2
-        x: 529
-        y: 330
+        x: 512
+        y: 319
         width: 64
         height: 64
       alignment: 0
@@ -2790,8 +2822,8 @@ TextureImporter:
       name: tilealpha_189
       rect:
         serializedVersion: 2
-        x: 595
-        y: 330
+        x: 576
+        y: 319
         width: 64
         height: 64
       alignment: 0
@@ -2803,8 +2835,8 @@ TextureImporter:
       name: tilealpha_190
       rect:
         serializedVersion: 2
-        x: 661
-        y: 330
+        x: 640
+        y: 319
         width: 64
         height: 64
       alignment: 0
@@ -2816,8 +2848,8 @@ TextureImporter:
       name: tilealpha_191
       rect:
         serializedVersion: 2
-        x: 727
-        y: 330
+        x: 704
+        y: 319
         width: 64
         height: 64
       alignment: 0
@@ -2829,8 +2861,8 @@ TextureImporter:
       name: tilealpha_192
       rect:
         serializedVersion: 2
-        x: 1
-        y: 264
+        x: 0
+        y: 255
         width: 64
         height: 64
       alignment: 0
@@ -2842,8 +2874,8 @@ TextureImporter:
       name: tilealpha_193
       rect:
         serializedVersion: 2
-        x: 67
-        y: 264
+        x: 64
+        y: 255
         width: 64
         height: 64
       alignment: 0
@@ -2855,8 +2887,8 @@ TextureImporter:
       name: tilealpha_194
       rect:
         serializedVersion: 2
-        x: 133
-        y: 264
+        x: 128
+        y: 255
         width: 64
         height: 64
       alignment: 0
@@ -2868,8 +2900,8 @@ TextureImporter:
       name: tilealpha_195
       rect:
         serializedVersion: 2
-        x: 199
-        y: 264
+        x: 192
+        y: 255
         width: 64
         height: 64
       alignment: 0
@@ -2881,8 +2913,8 @@ TextureImporter:
       name: tilealpha_196
       rect:
         serializedVersion: 2
-        x: 265
-        y: 264
+        x: 256
+        y: 255
         width: 64
         height: 64
       alignment: 0
@@ -2894,8 +2926,8 @@ TextureImporter:
       name: tilealpha_197
       rect:
         serializedVersion: 2
-        x: 331
-        y: 264
+        x: 320
+        y: 255
         width: 64
         height: 64
       alignment: 0
@@ -2907,8 +2939,8 @@ TextureImporter:
       name: tilealpha_198
       rect:
         serializedVersion: 2
-        x: 397
-        y: 264
+        x: 384
+        y: 255
         width: 64
         height: 64
       alignment: 0
@@ -2920,8 +2952,8 @@ TextureImporter:
       name: tilealpha_199
       rect:
         serializedVersion: 2
-        x: 463
-        y: 264
+        x: 448
+        y: 255
         width: 64
         height: 64
       alignment: 0
@@ -2933,8 +2965,8 @@ TextureImporter:
       name: tilealpha_200
       rect:
         serializedVersion: 2
-        x: 529
-        y: 264
+        x: 512
+        y: 255
         width: 64
         height: 64
       alignment: 0
@@ -2946,8 +2978,8 @@ TextureImporter:
       name: tilealpha_201
       rect:
         serializedVersion: 2
-        x: 595
-        y: 264
+        x: 576
+        y: 255
         width: 64
         height: 64
       alignment: 0
@@ -2959,8 +2991,8 @@ TextureImporter:
       name: tilealpha_202
       rect:
         serializedVersion: 2
-        x: 661
-        y: 264
+        x: 640
+        y: 255
         width: 64
         height: 64
       alignment: 0
@@ -2972,8 +3004,8 @@ TextureImporter:
       name: tilealpha_203
       rect:
         serializedVersion: 2
-        x: 727
-        y: 264
+        x: 704
+        y: 255
         width: 64
         height: 64
       alignment: 0
@@ -2985,8 +3017,8 @@ TextureImporter:
       name: tilealpha_204
       rect:
         serializedVersion: 2
-        x: 1
-        y: 198
+        x: 0
+        y: 191
         width: 64
         height: 64
       alignment: 0
@@ -2998,8 +3030,8 @@ TextureImporter:
       name: tilealpha_205
       rect:
         serializedVersion: 2
-        x: 67
-        y: 198
+        x: 64
+        y: 191
         width: 64
         height: 64
       alignment: 0
@@ -3011,8 +3043,8 @@ TextureImporter:
       name: tilealpha_206
       rect:
         serializedVersion: 2
-        x: 133
-        y: 198
+        x: 128
+        y: 191
         width: 64
         height: 64
       alignment: 0
@@ -3024,8 +3056,8 @@ TextureImporter:
       name: tilealpha_207
       rect:
         serializedVersion: 2
-        x: 199
-        y: 198
+        x: 192
+        y: 191
         width: 64
         height: 64
       alignment: 0
@@ -3037,8 +3069,8 @@ TextureImporter:
       name: tilealpha_208
       rect:
         serializedVersion: 2
-        x: 265
-        y: 198
+        x: 256
+        y: 191
         width: 64
         height: 64
       alignment: 0
@@ -3050,8 +3082,8 @@ TextureImporter:
       name: tilealpha_209
       rect:
         serializedVersion: 2
-        x: 331
-        y: 198
+        x: 320
+        y: 191
         width: 64
         height: 64
       alignment: 0
@@ -3063,8 +3095,8 @@ TextureImporter:
       name: tilealpha_210
       rect:
         serializedVersion: 2
-        x: 397
-        y: 198
+        x: 384
+        y: 191
         width: 64
         height: 64
       alignment: 0
@@ -3076,8 +3108,8 @@ TextureImporter:
       name: tilealpha_211
       rect:
         serializedVersion: 2
-        x: 463
-        y: 198
+        x: 448
+        y: 191
         width: 64
         height: 64
       alignment: 0
@@ -3089,8 +3121,8 @@ TextureImporter:
       name: tilealpha_212
       rect:
         serializedVersion: 2
-        x: 529
-        y: 198
+        x: 512
+        y: 191
         width: 64
         height: 64
       alignment: 0
@@ -3102,8 +3134,8 @@ TextureImporter:
       name: tilealpha_213
       rect:
         serializedVersion: 2
-        x: 595
-        y: 198
+        x: 576
+        y: 191
         width: 64
         height: 64
       alignment: 0
@@ -3115,8 +3147,8 @@ TextureImporter:
       name: tilealpha_214
       rect:
         serializedVersion: 2
-        x: 661
-        y: 198
+        x: 640
+        y: 191
         width: 64
         height: 64
       alignment: 0
@@ -3128,8 +3160,8 @@ TextureImporter:
       name: tilealpha_215
       rect:
         serializedVersion: 2
-        x: 727
-        y: 198
+        x: 704
+        y: 191
         width: 64
         height: 64
       alignment: 0
@@ -3141,8 +3173,8 @@ TextureImporter:
       name: tilealpha_216
       rect:
         serializedVersion: 2
-        x: 1
-        y: 132
+        x: 0
+        y: 127
         width: 64
         height: 64
       alignment: 0
@@ -3154,8 +3186,8 @@ TextureImporter:
       name: tilealpha_217
       rect:
         serializedVersion: 2
-        x: 67
-        y: 132
+        x: 64
+        y: 127
         width: 64
         height: 64
       alignment: 0
@@ -3167,8 +3199,8 @@ TextureImporter:
       name: tilealpha_218
       rect:
         serializedVersion: 2
-        x: 133
-        y: 132
+        x: 128
+        y: 127
         width: 64
         height: 64
       alignment: 0
@@ -3180,8 +3212,8 @@ TextureImporter:
       name: tilealpha_219
       rect:
         serializedVersion: 2
-        x: 199
-        y: 132
+        x: 192
+        y: 127
         width: 64
         height: 64
       alignment: 0
@@ -3193,8 +3225,8 @@ TextureImporter:
       name: tilealpha_220
       rect:
         serializedVersion: 2
-        x: 265
-        y: 132
+        x: 256
+        y: 127
         width: 64
         height: 64
       alignment: 0
@@ -3206,8 +3238,8 @@ TextureImporter:
       name: tilealpha_221
       rect:
         serializedVersion: 2
-        x: 331
-        y: 132
+        x: 320
+        y: 127
         width: 64
         height: 64
       alignment: 0
@@ -3219,8 +3251,8 @@ TextureImporter:
       name: tilealpha_222
       rect:
         serializedVersion: 2
-        x: 397
-        y: 132
+        x: 384
+        y: 127
         width: 64
         height: 64
       alignment: 0
@@ -3232,8 +3264,8 @@ TextureImporter:
       name: tilealpha_223
       rect:
         serializedVersion: 2
-        x: 463
-        y: 132
+        x: 448
+        y: 127
         width: 64
         height: 64
       alignment: 0
@@ -3245,8 +3277,8 @@ TextureImporter:
       name: tilealpha_224
       rect:
         serializedVersion: 2
-        x: 529
-        y: 132
+        x: 512
+        y: 127
         width: 64
         height: 64
       alignment: 0
@@ -3258,8 +3290,8 @@ TextureImporter:
       name: tilealpha_225
       rect:
         serializedVersion: 2
-        x: 595
-        y: 132
+        x: 576
+        y: 127
         width: 64
         height: 64
       alignment: 0
@@ -3271,8 +3303,8 @@ TextureImporter:
       name: tilealpha_226
       rect:
         serializedVersion: 2
-        x: 661
-        y: 132
+        x: 640
+        y: 127
         width: 64
         height: 64
       alignment: 0
@@ -3284,8 +3316,8 @@ TextureImporter:
       name: tilealpha_227
       rect:
         serializedVersion: 2
-        x: 727
-        y: 132
+        x: 704
+        y: 127
         width: 64
         height: 64
       alignment: 0
@@ -3297,8 +3329,8 @@ TextureImporter:
       name: tilealpha_228
       rect:
         serializedVersion: 2
-        x: 1
-        y: 66
+        x: 0
+        y: 63
         width: 64
         height: 64
       alignment: 0
@@ -3310,8 +3342,8 @@ TextureImporter:
       name: tilealpha_229
       rect:
         serializedVersion: 2
-        x: 67
-        y: 66
+        x: 64
+        y: 63
         width: 64
         height: 64
       alignment: 0
@@ -3323,8 +3355,8 @@ TextureImporter:
       name: tilealpha_230
       rect:
         serializedVersion: 2
-        x: 133
-        y: 66
+        x: 128
+        y: 63
         width: 64
         height: 64
       alignment: 0
@@ -3336,8 +3368,8 @@ TextureImporter:
       name: tilealpha_231
       rect:
         serializedVersion: 2
-        x: 199
-        y: 66
+        x: 192
+        y: 63
         width: 64
         height: 64
       alignment: 0
@@ -3349,8 +3381,8 @@ TextureImporter:
       name: tilealpha_232
       rect:
         serializedVersion: 2
-        x: 265
-        y: 66
+        x: 256
+        y: 63
         width: 64
         height: 64
       alignment: 0
@@ -3362,8 +3394,8 @@ TextureImporter:
       name: tilealpha_233
       rect:
         serializedVersion: 2
-        x: 331
-        y: 66
+        x: 320
+        y: 63
         width: 64
         height: 64
       alignment: 0
@@ -3375,8 +3407,8 @@ TextureImporter:
       name: tilealpha_234
       rect:
         serializedVersion: 2
-        x: 397
-        y: 66
+        x: 384
+        y: 63
         width: 64
         height: 64
       alignment: 0
@@ -3388,8 +3420,8 @@ TextureImporter:
       name: tilealpha_235
       rect:
         serializedVersion: 2
-        x: 463
-        y: 66
+        x: 448
+        y: 63
         width: 64
         height: 64
       alignment: 0
@@ -3401,8 +3433,8 @@ TextureImporter:
       name: tilealpha_236
       rect:
         serializedVersion: 2
-        x: 529
-        y: 66
+        x: 512
+        y: 63
         width: 64
         height: 64
       alignment: 0
@@ -3414,8 +3446,8 @@ TextureImporter:
       name: tilealpha_237
       rect:
         serializedVersion: 2
-        x: 595
-        y: 66
+        x: 576
+        y: 63
         width: 64
         height: 64
       alignment: 0
@@ -3427,8 +3459,8 @@ TextureImporter:
       name: tilealpha_238
       rect:
         serializedVersion: 2
-        x: 661
-        y: 66
+        x: 640
+        y: 63
         width: 64
         height: 64
       alignment: 0
@@ -3440,164 +3472,8 @@ TextureImporter:
       name: tilealpha_239
       rect:
         serializedVersion: 2
-        x: 727
-        y: 66
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: tilealpha_240
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: tilealpha_241
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: tilealpha_242
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: tilealpha_243
-      rect:
-        serializedVersion: 2
-        x: 199
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: tilealpha_244
-      rect:
-        serializedVersion: 2
-        x: 265
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: tilealpha_245
-      rect:
-        serializedVersion: 2
-        x: 331
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: tilealpha_246
-      rect:
-        serializedVersion: 2
-        x: 397
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: tilealpha_247
-      rect:
-        serializedVersion: 2
-        x: 463
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: tilealpha_248
-      rect:
-        serializedVersion: 2
-        x: 529
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: tilealpha_249
-      rect:
-        serializedVersion: 2
-        x: 595
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: tilealpha_250
-      rect:
-        serializedVersion: 2
-        x: 661
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: tilealpha_251
-      rect:
-        serializedVersion: 2
-        x: 727
-        y: 0
+        x: 704
+        y: 63
         width: 64
         height: 64
       alignment: 0

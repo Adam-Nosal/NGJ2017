@@ -26,9 +26,10 @@ public class MenuController : MonoBehaviour
 
     private IEnumerator RunGameAsync()
     {
-        cthulu.SetActive(true);
-        yield return new WaitForSeconds(0.2f);
         fader.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
+        cthulu.SetActive(true);
+
         yield return new WaitForSeconds(3f);
         SceneManager.LoadScene("main");
     }
