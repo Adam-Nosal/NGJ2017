@@ -1,0 +1,99 @@
+{ "height":216,
+ "layers":[
+        {
+         "compression":"zlib",
+         "data":"eJztnD2PHEUQhluL\/Yf4AcgkSMYSBLBC5wSQdSayECZCCBIgIQCR8pHiI7kAyQFCQnIAAeJi\/4a1nRz47Avp1k1p332vqqf6Y1br1QSl25nd6Weruqq6+mPvRgjhxg7J4ygfRXkyYdtHUa5HuTcB63Bom+Wgow5HBuNeJ10sHXrq8kaUn6JcHf5+Rdc3J9Bj2VkPrS+Y0donWl8wo1UX7osk78Pr1j6xfLanHpbPaozaPilh1OqyLwzNp9ivWnzL8qmcHqX9nsuDFqPUXjOj3ac0v6r1rX2x1TYZz6N8BvJXlO+i\/En3zwsZGOPPwkWtJnI2ct8b62O1zph4dEFGstVvYe2bbKNae70d5YNB3iPmQVjXvixnBYxbUV4f5B2Fka5\/iPJjg608jNS3R+Gy3yVZdWLcj\/JguP4vyocgTzsx7kQ5Ge69Ap+XZ8YYb0X5OMprUd41GEu4\/jfKpyCnDga2+SxsjrnCOB76nGPRO7fKxSD3ea1fPQprH0nxl+YbV4e\/N8Pad61Y9PiVxNgTsv0dYHyu2KjGVknnNB5+Mly\/BLZahMuxUZJLkHE4tJ2uvwU9jgebSGw8pee8eV30wPFbGNKOxBLG0Vh+t+IttX\/FyRjThT\/3c5S\/w4VPfQncnozUxqvhwrcWEzF+jfLHwEDfZcabwR+HWn8sBllm9Hi5kfFLuKhFTiayFecuyVO9GZybzqENyeunlYxFuFxLSQ7T2vAyMOfeNb6\/xcBnc7lXcq58Z87BOH5wrsVxPTemW31+QIzrYbP+kXj1jOnMSDnxyqA7M\/h1LUOupQ6ckmHZT\/p5NREj+fRt6PMWhtSEGncR2m2VbHF3kBQfWPM8D+sY8trqcdismcQWYo\/U5+ivXL\/9DoyHQY8Rtr18T\/muGOda7eape7X+xbhH3\/0irNeSZQy+Vcmw7i3DurZbbIGxnBlZxmILDKkjkl+dFDBwHJPYZUaKuzO6J2zPnA1jAcc+jktrPqA9X2srHn9zn23pj9zrWsb9sDn\/SPcwB\/dgLJR7XDO0MHicwPG1l620NRFtDtjK4PjiOvpFYXAMc63eytDWXbT1vV4xaMkUjOTP5xMzsN7m+O\/J8NSt+8jgOrQHg9d\/tLZwfqGt540xWBfrfRw\/bwc9\/loZ2lzDG4OlDBxDPLarYVjrBlr9UMvAuZ83J9b0x9h+2i70uRYHqzC+RjMWSyul77iW1O5rfazVolyPWnrK3vAD5b3SOLf0FMYJPct7Ey22svTgfbUetmI9amzl8d2pGTy34fzUg6HZu3duH6u1Whg4D8BaBwX3RWoYaB9tPjulX9UwrBgtYdTGeQmjNs572mpmzIyZsf+MXE7Uzttoe3otOZH3ILUxtzUn4poC20Tea+0PHnN5P\/OwA4PXfdhevKdXw8itv0xhK2vdsrettDnhrsTgzNgtRvJFPtPYykjzuRUwStfhPAxtjcWzH5VjaM8zQzsv2VLvavtR2t5bb1vNjJkxM2xG2tf6hxicH1Le1M7Vct7R8qGmS2Jwfkhrb3y+y1pf1NrXGKw\/10GWrbyMa0pbuXMAXgbuNZ4W9kfrmTtPf\/CzFsOzfufx3ZytLIbYR\/pb5j3WHn0NQ\/aveH3ROmtQw+Dr3Hu7wMA6q5aRyyOsSy0jp8PM2H2GNhf3vFfC4Jxo\/V6Nc0Ctrbw5cWasxfr9WA+\/GjtfV8KQvIhtec7XpXuefIi6WDGXY3h0YIZ1Ls2an9YwZB76fdiMP2t+WsOQmu4a2UY711zKeDToLzXdN2HTt7SzofKMl5H8CesyPBuO+QrP0MszpbaSfrbOS+BvFWv7Y2aUx+DXBuM4tMWg+E5uvxNz2lkhI1cvWuNGST5EXUoYJTrMjBeDgedv5HVvhjbetjJy+yjIwM+VMpJIDB8ZjB7\/a6tkblDLsHJKaw7x+HBrX+8rA+tfLS5b+wJ1seKjR\/szYzcZeH6Tf7\/dQ7T9w55+i7rwGNiz\/W0x0F5T2Il1mUKHbTJax+4p5X9lEahQ",
+         "encoding":"base64",
+         "height":216,
+         "name":"Tile Layer 1",
+         "offsetx":-670,
+         "offsety":5592,
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":25,
+         "x":0,
+         "y":0
+        }],
+ "nextobjectid":1,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tileheight":64,
+ "tilesets":[
+        {
+         "columns":12,
+         "firstgid":1,
+         "image":"tilealpha.png",
+         "imageheight":1366,
+         "imagewidth":781,
+         "margin":1,
+         "name":"tilealpha",
+         "spacing":1,
+         "terrains":[
+                {
+                 "name":"darkroom-outside",
+                 "tile":88
+                }],
+         "tilecount":252,
+         "tileheight":64,
+         "tiles":
+            {
+             "100":
+                {
+                 "terrain":[-1, 0, -1, 0]
+                },
+             "112":
+                {
+                 "terrain":[-1, -1, 0, 0]
+                },
+             "124":
+                {
+                 "terrain":[0, 0, -1, -1]
+                },
+             "232":
+                {
+                 "terrain":[0, -1, -1, -1]
+                },
+             "233":
+                {
+                 "terrain":[-1, 0, -1, -1]
+                },
+             "234":
+                {
+                 "terrain":[-1, -1, -1, 0]
+                },
+             "235":
+                {
+                 "terrain":[-1, -1, 0, -1]
+                },
+             "244":
+                {
+                 "terrain":[-1, 0, 0, 0]
+                },
+             "245":
+                {
+                 "terrain":[0, -1, 0, 0]
+                },
+             "246":
+                {
+                 "terrain":[0, 0, 0, -1]
+                },
+             "247":
+                {
+                 "terrain":[0, 0, -1, 0]
+                },
+             "72":
+                {
+                 "terrain":[0, 0, 0, 0]
+                },
+             "88":
+                {
+                 "terrain":[0, -1, 0, -1]
+                }
+            },
+         "tilewidth":64
+        }],
+ "tilewidth":64,
+ "version":1,
+ "width":25
+}
