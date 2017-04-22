@@ -26,10 +26,10 @@ public class MenuController : MonoBehaviour
 
     private IEnumerator RunGameAsync()
     {
-        fader.SetActive(true);
-        yield return new WaitForSeconds(1f);
         cthulu.SetActive(true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.2f);
+        fader.SetActive(true);
+        yield return new WaitForSeconds(3f);
         SceneManager.LoadScene("main");
     }
 }
