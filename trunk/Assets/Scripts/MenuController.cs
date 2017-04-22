@@ -1,24 +1,35 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using System.Collections.Generic;
 
 public class MenuController : MonoBehaviour
 {
     public Dropdown microphoneMenu;
+    public GameObject cthulu, fader;
 
     private void Start()
     {
-        microphoneMenu.ClearOptions();
-        microphoneMenu.AddOptions(new List<string>(Microphone.devices));
-        microphoneMenu.onValueChanged.AddListener((int i) =>
-            {
-                Knot.Instance.micIdx = i;
-            });
+//        microphoneMenu.ClearOptions();
+//        microphoneMenu.AddOptions(new List<string>(Microphone.devices));
+//        microphoneMenu.onValueChanged.AddListener((int i) =>
+//            {
+//                Knot.Instance.micIdx = i;
+//            });
     }
 
     public void RunGame()
     {
+        StartCoroutine(RunGameAsync());
+
+    }
+
+    private IEnumerator RunGameAsync()
+    {
+        fader.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        cthulu.SetActive(true);
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene("main");
     }
 }
