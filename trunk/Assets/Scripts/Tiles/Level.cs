@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Level : Singleton<Level>
 {
-    private static string[] levels = { "uboat-light" };
+    private static string[] levels = { "uboat" };
     public MapObject mapObject;
 
     private void Start()
