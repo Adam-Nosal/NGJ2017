@@ -1,9 +1,15 @@
 ﻿using System;
 using UnityEngine;
 
-public class Level : MonoBehaviour
+public class Level : Singleton<Level>
 {
-    private static string[] levels = { "untitled" };
+    private static string[] levels = { "uboat-light" };
+    public MapObject mapObject;
+
+    private void Start()
+    {
+        LoadLevelById(0);
+    }
 
     public void LoadLevelById(int i) 
     {
@@ -12,6 +18,12 @@ public class Level : MonoBehaviour
 
     public void LoadLevelByName(string name)
     {
-        TilemapLoader.LoadMapFromFile(name, transform);
+        mapObject = TilemapLoader.LoadMapFromFile(name, transform);
+    }
+
+    public void ReplaceInRoom(int room, GameObject old, GameObject fresh)
+    {
+        mapObject.rooms[room].Remove(old);
+        mapObject.rooms[room].Add(fresh);
     }
 }

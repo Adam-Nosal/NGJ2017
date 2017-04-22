@@ -13,7 +13,7 @@ public class MenuController : MonoBehaviour
         microphoneMenu.AddOptions(new List<string>(Microphone.devices));
         microphoneMenu.onValueChanged.AddListener((int i) =>
             {
-                Knot.instance.micIdx = i;
+                Knot.Instance.micIdx = i;
             });
     }
 
