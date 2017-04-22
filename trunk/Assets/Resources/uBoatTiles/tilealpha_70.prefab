@@ -37,6 +37,7 @@ GameObject:
   - component: {fileID: 4334666833904112}
   - component: {fileID: 65709009016332052}
   - component: {fileID: 212630435087549092}
+  - component: {fileID: 114276313124673740}
   m_Layer: 0
   m_Name: tilealpha_70
   m_TagString: Untagged
@@ -108,6 +109,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114276313124673740
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1757185081896340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0566a13722120406e81458fcffc25e9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 1
+  nextState: {fileID: 1992216238874974, guid: 0a16f7b16deed9d4693eb879cc949554, type: 2}
 --- !u!212 &212630435087549092
 SpriteRenderer:
   m_ObjectHideFlags: 1

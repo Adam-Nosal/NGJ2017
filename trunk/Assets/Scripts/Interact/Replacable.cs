@@ -6,11 +6,6 @@ public class Replacable : Interactable
 {
     public GameObject nextState;
 
-    protected virtual void Start()
-    {
-
-    }
-
     protected override void Interact()
     {
         base.Interact();

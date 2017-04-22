@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4657671131356670}
   - component: {fileID: 212880450673426832}
   - component: {fileID: 65562811594919408}
+  - component: {fileID: 114344754547069990}
   m_Layer: 0
   m_Name: tilealpha_2
   m_TagString: Untagged
@@ -134,6 +135,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114344754547069990
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1625881392998352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0566a13722120406e81458fcffc25e9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 1
+  nextState: {fileID: 1039618380128298, guid: 8c115f0285bb6d2488582c7472acd686, type: 2}
 --- !u!212 &212880450673426832
 SpriteRenderer:
   m_ObjectHideFlags: 1

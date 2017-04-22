@@ -5,9 +5,14 @@ using UnityEngine;
 [RequireComponent(typeof(Collider))]
 public class Interactable : MonoBehaviour
 {
-    public float delay;
+    public float delay = 1;
     private bool isEnabled = true;
     protected int roomCode;
+
+    protected virtual IEnumerator Start()
+    {
+        return DisableForSeconds(delay);
+    }
 
     protected virtual void Update()
     {
