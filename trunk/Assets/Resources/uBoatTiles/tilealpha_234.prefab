@@ -19,7 +19,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4888213725469414}
-  - component: {fileID: 65298486712110314}
   - component: {fileID: 212025620054066368}
   m_Layer: 0
   m_Name: tilealpha_234
@@ -28,6 +27,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!1 &1731057159268028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4340386878516308}
+  - component: {fileID: 60517881255335100}
+  m_Layer: 8
+  m_Name: "ko\u0142o lewy d\xF3\u0142 (1)"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4340386878516308
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731057159268028}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4888213725469414}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4888213725469414
 Transform:
   m_ObjectHideFlags: 1
@@ -35,24 +63,49 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1386139500756788}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.642148, y: -4.784474, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 4340386878516308}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &65298486712110314
-BoxCollider:
+--- !u!60 &60517881255335100
+PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1386139500756788}
+  m_GameObject: {fileID: 1731057159268028}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.073406816, y: -0.15645123}
+      - {x: -0.004170835, y: -0.24471855}
+      - {x: -0.03463304, y: -0.39085817}
+      - {x: -0.045559168, y: -0.49934912}
+      - {x: -0.011702061, y: -0.5137713}
+      - {x: 0.024423838, y: -0.49349046}
+      - {x: 0.08125782, y: -0.3369627}
+      - {x: 0.24013147, y: -0.12168884}
+      - {x: 0.50279343, y: -0.034428596}
+      - {x: 0.5082415, y: 0.041533947}
+      - {x: 0.186643, y: -0.05959654}
+      - {x: 0.10673046, y: -0.11114216}
 --- !u!212 &212025620054066368
 SpriteRenderer:
   m_ObjectHideFlags: 1
