@@ -15,8 +15,8 @@ public class PlayerController : MonoBehaviour
 
     [Header("Movement")]
     [SerializeField]
-    [Range(5.0f,15.0f)]
-    private float speed = 7.5f;
+    [Range(1.0f,15.0f)]
+    private float speed = 3.5f;
 
 
 
@@ -40,12 +40,12 @@ public class PlayerController : MonoBehaviour
     {
 
        Vector2 lVector = GamepadInput.GamePad.GetAxis(GamepadInput.GamePad.Axis.RightStick, GamepadInput.GamePad.Index.One);
-        if(Mathf.Abs(lVector.x)>0.2f || Mathf.Abs(lVector.y) > 0.2f)
+        if(Mathf.Abs(lVector.x)>0.01f || Mathf.Abs(lVector.y) > 0.01f)
         {
             lookVector = lVector;
         }
         
-        if (Mathf.Abs(lookVector.x) > 0.25f)
+        if (Mathf.Abs(lookVector.x) > 0.01f)
         {
             Vector3 diff = lookVector;// - transform.position;
             diff.Normalize();
