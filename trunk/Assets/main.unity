@@ -818,6 +818,7 @@ GameObject:
   - component: {fileID: 1427485877}
   - component: {fileID: 1427485876}
   - component: {fileID: 1427485881}
+  - component: {fileID: 1427485882}
   m_Layer: 0
   m_Name: TextureCamera
   m_TagString: MainCamera
@@ -908,6 +909,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dampTime: 0.15
   target: {fileID: 1288557360}
+--- !u!114 &1427485882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1427485875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: 0eec2d4fd594f4fad8b723b765b70426, type: 2}
 --- !u!4 &1659752385 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4878086541702374, guid: 89a9b64975d052146b235f64c8137c40,
