@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour
         int forward = movement > 0 ? 1 : -1;
         if (Mathf.Abs( movement) > 0.25f)
         {
-            mRigidbody2d.velocity = speed * forward* lookVector;
+            mRigidbody2d.velocity = speed * forward* lookVector.normalized;
 
         }
         else

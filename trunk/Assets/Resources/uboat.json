@@ -1,0 +1,123 @@
+{ "height":220,
+ "layers":[
+        {
+         "compression":"zlib",
+         "data":"eJztnUuS2zgMQHm9qZwgB8gB5gA5sMNsk8ly7EqzGo0GKNkmCVh6i1cV\/xJJLwIJEJK+lFK+vDj1yr9XfibYljPTPPy68s+V33gJ5dubB83XBNt2Nmp5Py80t\/OEc2Qt8tz478r3K38K50gGH1877wE+zkYtH8cOywdjyDr0vMrywTmCjzNSy+d5Lj7isHJAzwdjSC4fnCP4OBv4yAU+8lCLXUPs+WBMn8dWfZ36Oz7ODD5ygY9c4CMX+MgFPnJhHe\/b2vnl7fMf5eMaOj7W+Gj9C9\/fXNTy3nf1Q3zW3OBjPLdjrvveGnveJ0cfizc27IVzZI4PGav2QMya66PFnlre45J+bcUsfMzx0Y5t7zXxKpcPK6Zdnvz34XEft9e1fIxbzK\/ifNzGGK8nCMbQcu+WjxOvYqnl7\/\/5lvPp\/l19fuh5FvFqLL35E\/Or9ci6lBWLZDzzvhO9D0eiFj\/3a+\/JeEa8mkuLR1Zsku\/p84N6SawPmXv8VO9H78NRuB1fWYfa8mH9mZr7OKxc4xaX\/hTbQRvbrbwxel+OgOWjd07U8vd8wkcOH95Yg49YH7qOhY9YH3KMwUe8D+JVjA8Zl\/Cx1kc79m1ea+Xh7X2rLh+9L0fAu+5J1qa8PBwf4+nVdnXep4+5\/C013jHUYvf2tPNCjyVeHxD1kjF4a7PW2O7VUYhXc33IdXTmu\/E+5Do6PuJ99OrtzHfz+PDmwfiI8dF7Hx9zfOi8XNZL9LVT+BhLLR9r5tY1UHKO610jxZrtGHQcsvpHrP6S1oulr+\/kHBnrQ\/euW\/Pd9jtvrInep1dmz9htza+s9XN8zPXR4tHe+RU+5vrw6lfWuIKPuT569ataiFerfbS56z31RHzM8yFzQ5n3eWvp+BiDXhvUx97K+7xcnjXC56nl83Uce3JEK1dhjfB59uYf7bjr3gbiVYwPxvOcPhjPc\/no9TPgY54Pvc5hrdHiY50Pa+7EeB7rY6uGiA98HJ2eD6uvl\/Ejxod3HwZ9jz58rPGh45QFPmJ96F6Gi\/P76H16Ze7xIdei5PoIPuJ87OlljN6nVwYfucBHHmqx7xP6jA96Rh\/Hy7+96zv1fKqXw0fv2yviHctatnNBfKzz8Uw+iI95PraePWHlg\/iY58M7rrX4vSj4mOfDqyn26on4mOfDYmv9HB9rfWytR+Hjcbz1pr33Du+tWUXv2ytSi92vYL2ve0G3eh6i9+0VuTdeyePvXf9BvHqcrfVxjXU\/UeLVOGrp91f15la92grx6jEeiVfUE\/FxFu6tX+mxBR9rfVjjA\/X2WB97c3V8zPMhry3YytXxMd9HLf764J65MT7G+mB9MIZ78\/NebCM\/f55a7svP98Y28vPHIF7lAh+5wEcu8JELfOQCH7nARy7wkQt85AIfucBHLnr1xK1rDehPHE8tfj2x91w72Q\/n\/R3R+\/aK9OJVr499z33do\/ftFen56K3bXsR38LHGh74WR8cs+nfX+rB6Q2VfFvFqrQ89d5Ixi3i13kfvfmTEq\/U+yAfxcXbwkQt85AIfuWjXLY\/00e5zGb1vr4o+ns\/64Nx4jt7zo\/b44PlRY6llbP8utfbnIF7lAh+5wEcu8JELfOQCH7nARy7wkQt85ELXFK0aSHsezta10dQSx6Dv2VPL57Vyaz1d11Y4N+b4sGroui5vfRcfa3zo+ybiYy5en9We8UP\/NnpfjkAt273s3vihfxu9L0dgK17tne8Sr+b6kM9\/tF7jY60P\/czHNhf2njeBj7k+9OveZ\/jAx1GRNZNHfVArGcueY771WfQ+HAl85AIfucBHLvCRC3lcrWvN93wWvQ9HQufg1jMNrGvS8THfxyP1RHzg48jgIxdbPrb6S\/Axz4ecQ8m6Vi2M56uQz6Rtx10fb693jlriHL4VP\/\/r+eDcmOtD38fHimP6Pj\/R235E2rGtZTsXlPEMH3N93DvfxcccbvHoUux+OGvOexG\/id72I1KL3w\/n1a\/ab6K3\/YgQr3KBj1zgIxf4yIXOB61rcOQ8i3xwvo82h+rd50fmjO2+r9HbfkR6fYreuge1xLnsWZdiHQofZwUfucBHLvCRC+1D3gvAeu4HPtb6sNZs8bGO3jNXpA\/5vehtPjq12M9caX+WOXz0tp6Be643iN7WM+DVTaiTxLHVg8W5gY8zg49cyH5eK0dk7FhPL\/+I3rYzgo9c4CMX+MgFPnLRalWyf5d+kjis5xMy143FukYtepvODD5yIWMWsSoH1KxygY9csFYOAAAAAB7\/A8Nd5Uk=",
+         "encoding":"base64",
+         "height":220,
+         "name":"Tiles",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":100,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "compression":"zlib",
+         "data":"eJzt2eEKgjAUhuF5\/9c8jSIpxRqRbF\/0PHDw74EXBm6lAACMVUcvwIYeOWrRI8mrHnPvRbjZ95h3X\/o66rEOfdXS7qFLP3pkafVwbvWlR45ajntc6dGfHln0yKJHFj2y6JHjXYuVHn217tn16Kv15qEHAPy2ZfQCbOiRRY8cS9EjiR5Z9MiiRxY9smgBANmm6TGM91WL6T6cRo8semTRI4seWfTIokeW5\/+Pj7vocTo9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4JxcyaXsm",
+         "encoding":"base64",
+         "height":220,
+         "name":"Rooms",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":100,
+         "x":0,
+         "y":0
+        }],
+ "nextobjectid":1,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tileheight":64,
+ "tilesets":[
+        {
+         "columns":12,
+         "firstgid":1,
+         "image":"..\/..\/..\/tmp\/tilealpha\/tilealpha.png",
+         "imageheight":1366,
+         "imagewidth":781,
+         "margin":1,
+         "name":"tilealpha",
+         "spacing":1,
+         "terrains":[
+                {
+                 "name":"darkroom-outside",
+                 "tile":88
+                }],
+         "tilecount":252,
+         "tileheight":64,
+         "tiles":
+            {
+             "100":
+                {
+                 "terrain":[-1, 0, -1, 0]
+                },
+             "112":
+                {
+                 "terrain":[-1, -1, 0, 0]
+                },
+             "124":
+                {
+                 "terrain":[0, 0, -1, -1]
+                },
+             "232":
+                {
+                 "terrain":[0, -1, -1, -1]
+                },
+             "233":
+                {
+                 "terrain":[-1, 0, -1, -1]
+                },
+             "234":
+                {
+                 "terrain":[-1, -1, -1, 0]
+                },
+             "235":
+                {
+                 "terrain":[-1, -1, 0, -1]
+                },
+             "244":
+                {
+                 "terrain":[-1, 0, 0, 0]
+                },
+             "245":
+                {
+                 "terrain":[0, -1, 0, 0]
+                },
+             "246":
+                {
+                 "terrain":[0, 0, 0, -1]
+                },
+             "247":
+                {
+                 "terrain":[0, 0, -1, 0]
+                },
+             "72":
+                {
+                 "terrain":[0, 0, 0, 0]
+                },
+             "88":
+                {
+                 "terrain":[0, -1, 0, -1]
+                }
+            },
+         "tilewidth":64
+        }, 
+        {
+         "columns":8,
+         "firstgid":253,
+         "image":"..\/..\/..\/tmp\/numbers.png",
+         "imageheight":128,
+         "imagewidth":128,
+         "margin":0,
+         "name":"numbers",
+         "spacing":0,
+         "tilecount":64,
+         "tileheight":16,
+         "tilewidth":16
+        }],
+ "tilewidth":64,
+ "version":1,
+ "width":100
+}

@@ -32,11 +32,20 @@
          "source":"..\/..\/..\/tmp\/untitled.tsx"
         }, 
         {
+         "columns":8,
          "firstgid":65,
-         "source":"..\/..\/..\/tmp\/numbers.tsx"
+         "image":"..\/..\/..\/tmp\/numbers.png",
+         "imageheight":128,
+         "imagewidth":128,
+         "margin":0,
+         "name":"numbers",
+         "spacing":0,
+         "tilecount":64,
+         "tileheight":16,
+         "tilewidth":16,
+         "transparentcolor":"#ffffff"
         }],
  "tilewidth":16,
- "type":"map",
- "version":"2017.04.17",
+ "version":1,
  "width":15
 }
