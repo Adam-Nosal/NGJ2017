@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour
         this.vertices = vertices;
         this.edges = edges;
 
-        //GetComponent<Animator>().speed = Random.Range(0.8f, 1.2f);
+        GetComponent<Animator>().speed = 0.4f; //Random.Range(0.8f, 1.2f);
     }
 
     private void Move()
