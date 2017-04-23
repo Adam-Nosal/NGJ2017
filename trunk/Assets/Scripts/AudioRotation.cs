@@ -34,6 +34,8 @@ public class AudioRotation : MonoBehaviour {
     {
         int index = Random.Range(0, audioClips.Length);
         source.clip = audioClips[index];
+        float pitch = Random.Range(0.9f, 1.05f);
+        source.pitch = pitch;
         source.Play();
     }
 
