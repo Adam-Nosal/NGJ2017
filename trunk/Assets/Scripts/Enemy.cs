@@ -2,9 +2,12 @@
 using UnityEngine;
 using UnityEngine.Scripting.APIUpdating;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class Enemy : MonoBehaviour
 {
+    [SerializeField]
+    private bool isMoving = true;
     private GameObject last, now;
     private Dictionary<GameObject, List<GameObject>> edges;
     private List<GameObject> vertices;
@@ -22,33 +25,49 @@ public class Enemy : MonoBehaviour
 
     private void Move()
     {
-        if(edges[now].Count > 0)
+        if (isMoving)
         {
-            if(edges[now].Count == 1)
+            if (edges[now].Count > 0)
             {
-                last = now;
-                now = edges[now][0];
-
-            }
-            else
-            {
-                int i = Random.Range(0, edges[now].Count);
-                while(edges[now][i] == last)
+                if (edges[now].Count == 1)
                 {
-                    i = (i + 1) % edges[now].Count;
+                    last = now;
+                    now = edges[now][0];
+
                 }
-                last = now;
-                now = edges[last][i];
+                else
+                {
+                    int i = Random.Range(0, edges[now].Count);
+                    while (edges[now][i] == last)
+                    {
+                        i = (i + 1) % edges[now].Count;
+                    }
+                    last = now;
+                    now = edges[last][i];
+                }
+                transform.position = now.transform.position + new Vector3(0, 0, -1);
             }
-            transform.position = now.transform.position + new Vector3(0, 0, -1);
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.name == "Sub")
+        
+        if (other.name == "Sub")
         {
-            SceneManager.LoadScene("end");
+            AudioClip deathsound = AudioManager.Instance.GetDeathSound();
+            AudioSource.PlayClipAtPoint(deathsound, this.transform.position, 0.4f);
+
+
+            StartCoroutine(QuitAfterDeath(deathsound.length));
+
         }
     }
+
+    public IEnumerator QuitAfterDeath(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene("end");
+    }
+
 }

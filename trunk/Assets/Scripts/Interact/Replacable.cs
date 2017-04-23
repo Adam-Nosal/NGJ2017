@@ -21,6 +21,7 @@ public class Replacable : Interactable
         GameObject go = Instantiate(next, parent);
         go.transform.position = position - new Vector3(0, 0, 1);
         Level.Instance.ReplaceInRoom(roomCode, gameObject, go);
+        AudioSource.PlayClipAtPoint(AudioManager.Instance.doors, this.transform.position, 0.4f);
 
         yield return new WaitForSeconds(0.5f);
         Destroy(gameObject);
