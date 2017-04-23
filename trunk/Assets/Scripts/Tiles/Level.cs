@@ -1,14 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Level : Singleton<Level>
 {
     private static string[] levels = { "uboat" };
     public MapObject mapObject;
+    public GameObject enemy;
 
     private void Start()
     {
-        LoadLevelById(0);
+        LoadLevelById(0);SpawnEnemies();
     }
 
     public void LoadLevelById(int i) 
@@ -25,5 +27,37 @@ public class Level : Singleton<Level>
     {
         mapObject.rooms[room].Remove(old);
         mapObject.rooms[room].Add(fresh);
+    }
+
+    public void SpawnEnemies()
+    {
+        foreach(KeyValuePair<int,List<GameObject>> room in mapObject.rooms)
+        {
+            if(room.Key == 0) continue;
+            Dictionary<GameObject, List<GameObject>> edges = new Dictionary<GameObject, List<GameObject>>();
+            foreach(GameObject o in room.Value)
+            {
+                foreach(GameObject q in room.Value)
+                {
+                    if(!edges.ContainsKey(o))
+                    {
+                        edges[o] = new List<GameObject>();
+                    }
+                    if(q != o && Vector3.Distance(o.transform.position, q.transform.position) < 1.2f)
+                    {                        
+                        edges[o].Add(q);
+                    }
+                }
+            }
+            SpawnEnemy(room.Value, edges, room.Value[0]);
+
+        }
+    }
+
+    private void SpawnEnemy(List<GameObject> vertices,
+        Dictionary<GameObject, List<GameObject>> edges,
+        GameObject start)
+    {
+        Instantiate(enemy).GetComponent<Enemy>().Setup(vertices, edges, start);
     }
 }
