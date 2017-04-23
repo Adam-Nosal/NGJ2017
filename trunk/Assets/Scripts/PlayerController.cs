@@ -17,7 +17,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     [Range(1.0f,15.0f)]
     private float speed = 3.5f;
+    [SerializeField]
+    private float rotationSpeed = 2.0f;
 
+    float rot_z = 0;
 
 
 
@@ -35,30 +38,36 @@ public class PlayerController : MonoBehaviour
         InitVariables();
             
     }
-    
+
+    private void FixedUpdate()
+    {
+        Vector2 lVector = GamepadInput.GamePad.GetAxis(GamepadInput.GamePad.Axis.RightStick, GamepadInput.GamePad.Index.One);
+        lVector.Normalize();
+        if (Mathf.Abs(lVector.x) > 0.01f || Mathf.Abs(lVector.y) > 0.01f)
+        {
+            rot_z += (-1) * lVector.x * rotationSpeed;
+        }
+    }
     void Update()
     {
 
-       Vector2 lVector = GamepadInput.GamePad.GetAxis(GamepadInput.GamePad.Axis.RightStick, GamepadInput.GamePad.Index.One);
-        if(Mathf.Abs(lVector.x)>0.01f || Mathf.Abs(lVector.y) > 0.01f)
-        {
-            lookVector = lVector;
-        }
         
-        if (Mathf.Abs(lookVector.x) > 0.01f)
-        {
-            Vector3 diff = lookVector;// - transform.position;
-            diff.Normalize();
-            float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+        //if (Mathf.Abs(lookVector.x) > 0.01f)
+        //{
+            //Vector3 diff = lookVector;// - transform.position;
+            //diff.Normalize();
+            //float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+            //transform.rotation = Quaternion.Euler(0f, 0f, rot_z);
+
             transform.rotation = Quaternion.Euler(0f, 0f, rot_z);
-        }
+        //}
 
         movement = GamepadInput.GamePad.GetAxis(GamepadInput.GamePad.Axis.LeftStick, GamepadInput.GamePad.Index.One).y;
         int forward = movement > 0 ? 1 : -1;
         if (Mathf.Abs( movement) > 0.25f)
         {
-            mRigidbody2d.velocity = speed * forward* lookVector.normalized;
-
+          //  mRigidbody2d.velocity = speed * forward * this.transform.forward;// lookVector.normalized;
+            transform.position += speed * forward * Time.deltaTime * transform.right;      
         }
         else
         {
