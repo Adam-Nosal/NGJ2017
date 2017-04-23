@@ -879,6 +879,11 @@ Prefab:
       propertyPath: m_Radius
       value: 0.8
       objectReference: {fileID: 0}
+    - target: {fileID: 58134071716950452, guid: d9a428d8e9e652a4980f6538e8008b4b,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d9a428d8e9e652a4980f6538e8008b4b, type: 2}
   m_IsPrefabParent: 0
@@ -1221,6 +1226,10 @@ Prefab:
     - target: {fileID: 4371929971796382, guid: b012ed6916f884b458247774126c4cbe, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1427468498153944, guid: b012ed6916f884b458247774126c4cbe, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b012ed6916f884b458247774126c4cbe, type: 2}

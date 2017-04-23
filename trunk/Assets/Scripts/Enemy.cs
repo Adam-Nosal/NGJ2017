@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Scripting.APIUpdating;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
@@ -40,6 +41,14 @@ public class Enemy : MonoBehaviour
                 now = edges[last][i];
             }
             transform.position = now.transform.position + new Vector3(0, 0, -1);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.name == "Sub")
+        {
+            SceneManager.LoadScene("end");
         }
     }
 }
