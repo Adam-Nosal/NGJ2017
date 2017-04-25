@@ -67,7 +67,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1031504419933266}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.776051, y: -78.883514, z: 0}
+  m_LocalPosition: {x: -26.535805, y: -70.54871, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children:
   - {fileID: 4371929971796382}
@@ -88,7 +88,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4
+  m_Radius: 3
 --- !u!82 &82229319574037674
 AudioSource:
   m_ObjectHideFlags: 1
@@ -210,8 +210,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 82229319574037674}
-  MinSoundTimestamp: 2.5
-  MaxSoundTimestamp: 5
+  MinSoundTimestamp: 1.5
+  MaxSoundTimestamp: 3
   audioClips:
   - {fileID: 8300000, guid: 62bb5fa5859833e4bb064e95dfb36e9b, type: 3}
   - {fileID: 8300000, guid: a4fe8350aac95c04f9814c323e23a11d, type: 3}
